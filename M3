@@ -1,6 +1,6 @@
 def M3():
 	a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
-	b = ";[FBAN/Orca-Android;FBAV/196.0.0.27;FBPN/com.facebook.orca;FBLC/en_US;FBBV/620548356;FBCR/Plus;FBMF/Xiaomi;FBBD/Xiaomi;FBDV/21081111RG;FBSV/8.5.3;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=1280,height=1080};FB_FW/1;FBRV/107866001;]"
+	b = ";[FBAN/Orca-Android;FBAV/196.0.0.73;FBPN/com.facebook.orca;FBLC/en_AU;FBBV/926686570;FBCR/Vodafone IN;FBMF/XIAOMI;FBBD/XIAOMI;FBDV/2016070;FBSV/4.3.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.0,width=720,height=1440};FB_FW/1;FBRV/770084119;]"
 	ua = a+b
 	return ua
  

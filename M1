@@ -1,3 +1,6 @@
 def M1():
-	ua = "Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))+";[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748118;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_US;FBCR/movistar;FBMF/bq;FBBD/bq;FBPN/com.facebook.katana;FBDV/Aquaris M5;FBSV/5.1.1;nullFBCA/armeabi-v7a:armeabi;]"
+	a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
+	b = ";[FBAN/MobileAdsManagerAndroid;FBAV/294.0.0.39.118;FBBV/253340706;FBDM/{density=2.625,width=1080,height=1920};FBLC/es_CH;FBRV/253980635;FBCR/ental;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.adsmanager;FBDV/V1732A;FBSV/8.1.1;FBOP/1;FBCA/arm64-v8a:;]"
+	ua = a+b
 	return ua
+ 
